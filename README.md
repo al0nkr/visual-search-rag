@@ -2,9 +2,10 @@
 - running tencent/HunyuanOCR with local setup and worked with test application
 
 ### TODOs 
-- integrate RAG service
+- integrate RAG service (in C++ ? and FAISS for retrieval and indexing)
 - find optimizations and how to enable vector dbs for searching 
 - create pipeline to integrate inference server along with search window and vector db
+- improve model responses with prompt tuning (suggested temperature is 0.0 for model ocr capabilities)
 - implement internet search 
 - test out ocr capabilities 
 - reduce vram usage as much as possible
